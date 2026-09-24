@@ -1,0 +1,6 @@
+{
+  "skill_name": "ship",
+  "evals": [
+    {"id": 1, "prompt": "/ship --plan release build for android of the current project", "expected_output": "Lists the four steps in order (audit, bump, build via request file, listing), names the automated checks and that fails block the bump, says the build goes through build_request.json and the report is read from build_report.txt, and that lastShipped updates only after success. Touches nothing.", "files": [], "expectations": ["Order is audit, bump, build, listing", "Build goes through the request file, not BuildPipeline", "lastShipped updates only after a successful build", "Nothing is modified in plan mode"]}
+  ]
+}
