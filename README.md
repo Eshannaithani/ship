@@ -4,11 +4,19 @@ Pre-launch audit, version bump, request-file builds and store-listing drafts for
 
 A Claude Code skill. Install it once per machine and type the slash command in any Unity project session.
 
-```
+```bash
 /ship --check
 /ship --release android
 /ship --plan release build for ios
 ```
+
+## Build Optimization & Release Guides
+
+The pre-release verification rules and build settings checked by `ship` are documented in:
+
+- **Build Size Guide**: [Unity 6 Build Size Optimization: APK, AAB & Assets](https://www.eshannaithani.com/blogs/unity-build-optimization?utm_source=github&utm_medium=repo&utm_campaign=ship) — Complete guide on IL2CPP code stripping, ASTC texture compression, and Play Asset Delivery.
+- **Performance QA**: [Unity 6 Mobile Performance Checklist](https://www.eshannaithani.com/blogs/unity-mobile-performance-checklist?utm_source=github&utm_medium=repo&utm_campaign=ship) — Pre-launch checklist for frame times, memory budgets, and thermal soak tests.
+- **Studio Portfolio**: [Eshan Naithani — Unity Game Development Services](https://www.eshannaithani.com/services/unity-game-development?utm_source=github&utm_medium=repo&utm_campaign=ship)
 
 ## Requirements
 
